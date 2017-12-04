@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Generator" content="EditPlus®">
+		<meta name="Author" content="">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<title>简历展示</title>
+		<script type="text/javascript" src="jquery-3.1.0.min.js"></script>  
+		<script type="text/javascript" src="jquery.media.js"></script>
+		<script type="text/javascript">
+			$(function() {  
+					$('.pdf').media({
+						width: document.body.clientWidth, 
+						height: document.documentElement.clientHeight, 
+						});
+				});  
+		</script>
+		<style type="text/css">
+			body {
+				margin: 0;
+				overflow-x:hidden;
+				overflow-y:hidden;
+			}
+			div.displaybox {
+				width: 100%;
+				margin: 0  auto;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="displaybox" align="center"><a class="pdf" href="resume/resume_demo.pdf" display:none></a></div>	<!-- 在这里修改引用的PDF文档  -->
+	<body>
+</html>
